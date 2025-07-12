@@ -1,25 +1,26 @@
-name: ThinkBayes2
+name: tb2
 channels:
   - conda-forge
   - fastai
   - nodefaults
 dependencies:
-  - python>=3.6
-  - jupyter
-  - numpy
-  - matplotlib
-  - seaborn
-  - pandas
-  - statsmodels
-  - scipy
-  - pymc3
   - arviz
-  - python-graphviz
-  - mkl-service
-  - lxml
-  - xlrd
   - html5lib
+  - jupyter
+  - jupyterlab
+  - lxml
+  - matplotlib
+  - mkl-service
+  - numpy
+  - pandas
+  - pymc3
   - pytables
+  - python>=3.12
+  - python-graphviz
+  - scipy
+  - seaborn
+  - statsmodels
+  - xlrd
   - nbconvert
   - pandoc<2.3
   - fastai::fastdoc
@@ -29,4 +30,4 @@ dependencies:
   - nbmake
   - jupyter-book
   - ghp-import
-  - empiricaldist>=0.6.7
+  - empiricaldist
