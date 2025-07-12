@@ -1,9 +1,13 @@
 format: jb-book
 root: index
+
 parts:
-- caption: Chapters
+- caption: Front Matter
   chapters:
   - file: preface
+- caption: Chapters
+  numbered: True
+  chapters:
   - file: chap01
   - file: chap02
   - file: chap03
@@ -22,11 +26,12 @@ parts:
   - file: chap16
   - file: chap17
   - file: chap18
-  - file: chap19
+  - file: chap19_v3
   - file: chap20
 - caption: Examples
   chapters:
   - file: redline
+  - file: redline_pymc
   - file: vaccine2
   - file: usb
   - file: sister
@@ -34,3 +39,6 @@ parts:
   - file: radiation
   - file: hospital
   - file: hospital_birth_rate
+  - file: ok
+  - file: bookstore
+  - file: beta_binomial
