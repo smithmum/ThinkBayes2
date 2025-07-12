@@ -1,10 +1,5 @@
 jupyter
-jupyterlab
 nbclassic
-numpy
-pandas
-matplotlib
-plotly
 seaborn
 statsmodels
 lxml
@@ -12,4 +7,3 @@ xlrd
 html5lib
 tables
 empiricaldist
-
